@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ChongJiBo
+  m_Shader: {fileID: -6465566751694194690, guid: 64cd29cb10e084338b8d7b60fc7647c1,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - SHADOWCASTER
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_349ACFDD:
+        m_Texture: {fileID: 2800000, guid: a492eca7cf52946bb851652d71da5bbe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F9C3F83F:
+        m_Texture: {fileID: 2800000, guid: ed18d039c348d4395aac298e306fee12, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 1ffcbc68e04fe4c2dba2f5f7ff9d74bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.84, y: -2.55}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1ffcbc68e04fe4c2dba2f5f7ff9d74bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.84, y: -2.55}
+    - _Texture2DAsset_845444E_Out_0:
+        m_Texture: {fileID: 2800000, guid: ed18d039c348d4395aac298e306fee12, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_F1F30E2B_Out_0:
+        m_Texture: {fileID: 2800000, guid: a492eca7cf52946bb851652d71da5bbe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_62D74833: -1.48
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _Cull: 0
+    - _Cutoff: 0.509
+    - _DstBlend: 10
+    - _QueueOffset: 1
+    - _SampleGI: 0
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _WindQuality: 0
+    - _ZWrite: 0
+    m_Colors:
+    - Color_644C867E: {r: 0.52117616, g: 1.008728, b: 1.6055588, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+--- !u!114 &8733440553982292456
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 2
